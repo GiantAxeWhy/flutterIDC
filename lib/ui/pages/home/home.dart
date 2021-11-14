@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+
+import 'package:idc/ui/pages/home/home_content.dart';
+
 class HYHomeScreen extends StatelessWidget {
 
   @override
@@ -8,7 +11,7 @@ class HYHomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('IDC'),
     ),
-      body: Center(child:Text("IDC"),)
+      body: HYHomeContent(),
     );
   }
 }
